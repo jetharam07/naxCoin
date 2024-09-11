@@ -1,0 +1,245 @@
+.col-4{
+    align-items: center;
+    /* margin-left: 700px; */
+    /* padding-top: 300px; */
+    /* color: green; */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+/* text-align: right; */
+/* padding-top: 200px; */
+margin-top: 150px;
+margin-left: 150px;
+
+}
+
+.heading1{
+font-size: 25px;
+background-color: rgb(198, 84, 103);
+color: white;
+overflow: hidden;
+border-bottom-left-radius: 50px;
+border-top-right-radius: 50px;
+ padding-right: 20px;
+padding-left: 20px;
+padding-top: 15px;
+padding-bottom: 15px; 
+text-align: center;
+
+}
+
+.heading2 {
+    color: rgb(65, 222, 91);
+    font-size: 40px;
+    
+    text-align: left;
+    margin-top: 20px;
+    /* padding-right: 20px; */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h5{
+    color: white;
+    /* text-align: right; */
+    /* padding-left: 50px; */
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+button{
+  
+    margin-top: 30px;
+    padding: 10px 10px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid blue;
+     font-size: 20px; 
+    border-radius: 8px; 
+     font-weight: bold;
+    
+}
+button:hover {
+    background-color: #45a049; /* Hover par background color change */
+    transform: scale(1.05); /* Button ko thoda bada dikhane ke liye */
+}
+
+@media (min-width: 800px) and (max-width: 1000px){
+  
+.heading1{
+font-size: 20px;
+text-align: left;
+}
+.heading2{
+    font-size: 25px;
+    text-align: left;
+   
+}
+
+}
+
+@media (min-width: 700px) and (max-width: 800px){
+
+     
+.heading1{
+    font-size: 17px;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    margin-left: -16px;
+    }
+    .heading2{
+        font-size: 20px;
+        text-align: left;
+       
+    }
+    
+h5{
+    
+    font-size: 13px;
+}
+button{
+    font-size:17px ;
+}
+
+.col-4{
+    margin-left: 100px;
+}
+
+}
+
+@media (min-width: 550px) and (max-width: 700px){
+
+.col-4{
+    margin-left: 30px;
+}
+
+.heading1{
+    font-size: 14px;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    margin-left: -16px;
+     }
+     
+    .heading2{
+        font-size: 20px;
+        text-align: left;
+       
+    }
+    
+h5{
+    
+    font-size: 13px;
+}
+button{
+    font-size:17px ;
+} 
+
+.col-4{
+    margin-left: -23px;
+}
+
+
+}
+
+@media (min-width: 446px) and (max-width: 550px){
+/* 
+     .col-4{
+        margin-left: 30px;
+    } */
+     
+     .heading1{
+        font-size: 12px;
+        text-align: center;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px; 
+        margin-left: -16px;
+         }
+         
+        .heading2{
+            font-size: 20px;
+            text-align: left;
+           
+        }
+        
+    h5{
+        
+        font-size: 13px;
+    }
+    button{
+        font-size:14px ;
+    } 
+
+    
+} 
+
+@media (min-width: 370px) and (max-width: 446px){
+
+    .heading1{
+        font-size: 10px;
+        text-align: center;
+        padding-right: 15px;
+        padding-left: 15px;
+         padding-top: 10px;
+        padding-bottom: 10px; 
+        margin-left: -20px; 
+         }
+         
+        .heading2{
+            font-size: 20px;
+            text-align: left;
+            margin-left: -10px;
+           
+        }
+        
+    h5{
+        
+        font-size: 13px;
+        margin-left: -20px;
+    }
+    button{
+        font-size:14px ;
+        margin-left: -30px;
+    } 
+
+}
+
+@media (min-width: 0px) and (max-width: 370px){
+
+    .heading1{
+        font-size: 7px;
+        text-align: center;
+        padding-right: 15px;
+        padding-left: 15px;
+         padding-top: 10px;
+        padding-bottom: 10px; 
+        margin-left: -20px; 
+         }
+         .heading2{
+            font-size: 15px;
+            text-align: left;
+            margin-left: -10px;
+           
+        }
+        
+    h5{
+        
+        font-size: 10px;
+        margin-left: -20px;
+    }
+    button{
+        font-size:10px ;
+        margin-left: -30px;
+    } 
+
+
+}

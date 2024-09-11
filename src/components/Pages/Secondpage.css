@@ -1,0 +1,88 @@
+.page2{
+
+    background-color: black;
+    display: flex; /* Use Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 98vh; /* Full viewport height */
+  }
+  
+  .col.second{
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    border: 2px solid blue;
+    margin-left: 5px;
+    border-radius: 3%;
+    margin-right: 5px;
+    background-color: default;
+    
+  }
+
+.sencondPageText{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: auto;
+    background-color: default;
+    margin-top: 30px;
+}
+
+.col.second:hover, .sencondPageText:hover, .HoverCardimage img:hover {
+    /* background-color: rgb(55, 203, 55); Change this to your desired hover color */
+    transition: background-color 0.3s ease; /* Adds a smooth transition effect */
+    background-color: rgb(238, 242, 236);
+
+  }
+  
+  .col.second:hover .sencondPageText{
+    /* color: rgb(12, 12, 120);
+     */
+     color: black;
+  }
+  
+  .HoverCardimage img{
+    margin-top: 5px;
+    width: 160px;
+    height: 130px;
+    background-color: default;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 40px;
+    
+  }
+  
+
+  @media (min-width: 700px) and (max-width: 900px) {
+   .col.second{
+    height: 250px;
+    width: 300px;
+    font-size: 13px;
+    
+   }
+  }
+
+  @media (min-width: 0px) and (max-width: 700px){
+    .col.second{
+      height: 215px;
+      width: 265px;
+      font-size: 12px;
+    
+
+    }
+    .row.row-cols-1.row-cols-md-2.g-4.second{
+      display: flex;
+      flex-direction: column;
+    }
+    .HoverCardimage img{
+      width: 110px;
+    height: 80px;
+    margin-left: 40px;
+    }
+  }
+
+  @media  (min-width: 1700px){
+    .HoverCardimage img{
+      margin-right:65px ;
+    }
+  }

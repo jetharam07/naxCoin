@@ -1,0 +1,435 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero{
+  display: flex;
+  height: 100vh;
+  background-image: url('./Assets/airdrop5.jpg');
+  background-size: cover;
+}
+
+.content{
+display: flex;
+color: white;
+} */
+
+
+ .hero{
+  background-image: url('./Assets/airdrop10.avif');
+  background-size: cover;
+  
+} 
+
+.home-container{
+  padding: 30px 50px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Reem Kufi", sans-serif !important;
+  
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.App {
+  min-height: 100vh;
+  width: auto;
+  max-width: auto;
+  margin: 0rem auto;
+} 
+
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #f6f6f6;
+}
+
+
+
+/* Navbar css */
+
+/* General navbar styling */
+.navbar-container {
+  /* background-color: #333; */
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Left-side buttons */
+.navbar-left {
+  display: flex;
+  gap: 15px;
+  font-weight: bold;
+  
+}
+
+.nav-link {
+  color:rgb(209, 213, 10) ;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #343333;
+  border-radius: 5px;
+  transform: translateY(-3px);
+}
+
+/* Prevent color change on click */
+.nav-link:active {
+  background-color: #555;
+}
+
+/* Right-side special button */
+.navbar-right .special {
+  /* background-color: #007bff; */
+  background-color: rgb(208, 143, 78);
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-right .special:hover {
+  background-color: #660831;
+  transform: translateY(-3px);
+}
+
+/* Prevent color change on click */
+.navbar-right .special:active {
+  background-color: #acb3ba;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-left {
+    flex-direction: column;
+    width: 100%;
+   
+  }
+
+  .navbar-right {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .nav-link {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+
+.primary-button {
+  padding: 0.9rem 1.75rem;
+  background-color: white;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.home-banner-container {
+  position: relative;
+  display: flex;
+  padding-top: 3rem;
+}
+.home-bannerImage-container {
+  position: absolute;
+  top: -100px;
+  right: -170px;
+  z-index: -2;
+  max-width: 700px;
+}
+.home-image-section {
+  max-width: 600px;
+  flex: 1;
+
+}
+.home-text-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+.primary-heading {
+     font-size: 40px;
+  color: rgb(240, 229, 229);
+  /* line-height: 5rem; */
+  max-width: 600px;
+  margin-bottom: 50px;
+}
+.primary-text {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  max-width: 500px;
+  color: rgb(34, 186, 67);
+  margin: 4rem 0rem;
+  margin-bottom: 141px;
+}
+
+.primary-subheading {
+  font-weight: 700;
+  color: #fe9e0d;
+  font-size: 1.15rem;
+}
+.about-buttons-container {
+  margin-top: 2rem;
+  display: flex;
+}
+
+
+
+
+@media (max-width: 600px) {
+  .home-bannerImage-container,
+  .about-background-image-container {
+    display: none;
+  }
+} 
+
+
+
+.shoes{
+color: black;
+size: 30px 30px;
+border:4px solid #505050;
+margin-top: 3px; 
+margin-right: 800px;
+margin-left: 20px;
+text-align: center;
+
+}
+
+
+@media (min-width: 0px) and (max-width: 950px){
+
+  .headingforshoes{
+    font-size: 8px;
+  }
+}
+
+.col-md-3 text-center mt-5{
+  border-color: brown;
+
+}
+
+.card-body{
+  background-color: white;
+  color: black;
+}
+
+.card-title{
+  color: green;
+}
+
+.cardImage{
+  /* width: 100%;
+    height: 200px; */
+    width: 80%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;background-color: black;
+}
+.cardImage img{
+  height: 130px;
+  width: 130px;
+}
+
+
+.row.row-cols-1.row-cols-md-4.g-4 {
+  background-color: black;
+}
+
+.designButton{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #24282c; /* Initial button color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  margin-top: 0px;
+}
+
+.designButton:hover{
+  background-color: #0056b3; /* Change color on hover */
+  transform: scale(1.1); /* Slightly increase size */
+}
+
+.designButton:focus{
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Add a focus ring */
+}
+
+
+@media (min-width: 1800px) and (max-width: 3000px) {
+ 
+  .card-img-top {
+    width: 250px;  
+    height: 250px; 
+    object-fit: cover; 
+    text-align: center;
+    margin-left: 100px;
+  }
+  }
+
+
+@media (min-width: 1200px) and (max-width: 1800px) {
+ 
+  .card-img-top {
+    
+    width: 200px;  
+    height: 200px; 
+    object-fit: cover; 
+    text-align: center;
+    margin-left: 50px;
+    background-color: black;
+  }
+  }
+
+@media (min-width: 800px) and (max-width: 1200px) {
+ 
+  .card-img-top {
+    width: 250px;  
+    height: 250px; 
+    object-fit: cover; 
+    text-align: center;
+    /* margin-left: 50px; */
+  }
+  }
+
+
+
+@media (min-width: 600px) and (max-width: 800px) {
+  .row-cols-md-4 > .col {
+      flex: 0 0 33.3333%; /* 3 columns */
+      max-width: 33.3333%;
+  }
+  
+.card-img-top {
+  width: 200px;  
+  height: 200px; 
+  object-fit: cover; 
+  text-align: center;
+  
+}
+}
+
+
+@media (min-width: 0px) and (max-width: 600px) {
+  .row-cols-md-4 > .col {
+    flex: 0 0 50%; /* 2 columns */
+    max-width: 50%;
+  }
+  
+.card-img-top {
+  width: 200px;  
+  height: 200px; 
+  object-fit: cover; 
+  text-align: center;
+  /* margin-left: 50px; */
+}
+.primary-heading {
+  text-align: center;
+  font-size: 20px;
+  width: 290px;
+}
+
+}
+
+
+
+
+/* Button click css */
+
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  border: 2px solid rgb(41, 0, 128);
+  color: white;
+  padding: 20px;
+ border-radius: 15px;
+  position: absolute;
+  top: 90px;  /* Adjust this based on your layout */
+  left: 70px; /* Adjust this based on your layout */
+  z-index: 1000;
+}
+
+
+
+
+
+
+ /* **********************SPECIAL THING****************** */
+/* ######## Meadia Quary In CSS  */
+/*  we can argest every thing , according to screen sizing or image, heading, buttons   */
+/* Example */
+
+/* 
+@media (min-width: 0px) and (max-width: 400px) {
+  
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+  
+}
+@media (min-width: 500px) and (max-width: 900px) {
+  
+} */
+
+/* ###### Format ###### */
+/* 
+@media (min-width: ---px) and (max-width: ---px) {
+  div/button/heading/img/className{
+       font-size: --;
+       color: ---;
+       ***
+       According to need
+       ***
+  }
+
+  **** You can add more things ***** 
+
+} */
