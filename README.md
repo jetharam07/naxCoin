@@ -1,6 +1,6 @@
 # naxCoin
 //*** click on link to view project ***//
-https://naxcoin.onrender.com/#
+ [https://naxcoin.onrender.com/#]
 
 
 This is a crypto airdrop type project. It has a dynamic user interface. It uses browser router, react router dom, routes, metamask and all other dependencies. Background images, hover-effect, animated cards, grid system are used for attractive user interface. It is made responsive by using media query for every screen size, devices.
