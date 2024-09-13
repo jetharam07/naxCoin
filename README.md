@@ -1,5 +1,6 @@
 # naxCoin
 //*** click on link to view project ***//
+Make sure tab night mode is off for batter view ***//
  [https://naxcoin.onrender.com/#]
 
 
